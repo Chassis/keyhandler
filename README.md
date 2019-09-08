@@ -4,6 +4,8 @@ Handle keyboard shortcuts in your React components, and automatically show hints
 
 <img alt="Hint text displayed over component" src="https://user-images.githubusercontent.com/21655/64488716-ded9c900-d242-11e9-8c5e-4b9e50e21d6f.png" />
 
+**[View the demo →](https://chassis.github.io/keyhandler/)**
+
 [![NPM](https://img.shields.io/npm/v/@chassis-wp/keyhandler.svg)](https://www.npmjs.com/package/@chassis-wp/keyhandler)
 
 
