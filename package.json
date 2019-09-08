@@ -1,7 +1,7 @@
 {
   "name": "@chassis-wp/keyhandler",
   "version": "0.1.0",
-  "description": "",
+  "description": "Handle keyboard shortcuts in your React components, and automatically show hints to users.",
   "author": "rmccue",
   "license": "MIT",
   "repository": "Chassis/keyhandler",
