@@ -29,6 +29,8 @@ const demoKeys = [
 	'?',
 	'<',
 	'>',
+	'$',
+	'%',
 	'esc',
 	'enter',
 	'space',

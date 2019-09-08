@@ -43,6 +43,7 @@ const toCode = ( text: string ) : KeyCode => {
 			case 'enter':
 			case 'delete':
 			case 'backspace':
+			case 'tab':
 				code.key = key.toLowerCase();
 				break;
 
