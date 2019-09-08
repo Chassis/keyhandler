@@ -126,7 +126,6 @@ export default class Keys {
 	}
 
 	trigger( e: KeyboardEvent ) {
-		console.log( e.key );
 		if ( ! e.key ) {
 			return;
 		}
