@@ -1,0 +1,16 @@
+.App {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.App label {
+	display: block;
+	margin: 1em 0;
+}
+
+.App__keys {
+	display: grid;
+	grid-template-columns: repeat( 6, 150px );
+	row-gap: 10px;
+	column-gap: 10px;
+}

@@ -1,0 +1,15 @@
+.Key {
+	display: flex;
+	height: 150px;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgba( 0, 0, 255, 0.2 );
+	box-sizing: border-box;
+	border-radius: 10px;
+	transition: background .4s ease-in !important;
+	position: relative;
+	text-align: center;
+}
+.Key--triggered {
+	background: rgba( 0, 0, 255, 0.2 );
+}
