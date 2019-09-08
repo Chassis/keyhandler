@@ -9,10 +9,10 @@ Handle keyboard shortcuts in your React components, and automatically show hints
 
 ```bash
 # With yarn:
-yarn add keyhandler
+yarn add @chassis-wp/keyhandler
 
 # With npm:
-npm install --save keyhandler
+npm install --save @chassis-wp/keyhandler
 ```
 
 
