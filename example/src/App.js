@@ -35,10 +35,14 @@ const demoKeys = [
 	'enter',
 	'space',
 	'backspace',
+	'delete',
+	'tab',
 	'cmd+esc',
 	'cmd+enter',
 	'cmd+space',
 	'cmd+backspace',
+	'cmd+delete',
+	'shift+tab',
 ];
 
 const Keys = props => (
