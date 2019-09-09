@@ -1,21 +1,23 @@
+import {string} from "prop-types";
+
 interface KeyCode {
 	key?: string;
 	ctrlKey: boolean;
 	metaKey: boolean;
 	shiftKey: boolean | null;
-};
+}
 
 type Callback = ( e: KeyboardEvent ) => void;
 
 interface Key extends KeyCode {
 	id: number;
 	callback: Callback;
-};
+}
 
 const toCode = ( text: string ) : KeyCode => {
 	const keys = text.split( '+' ).map( key => key.trim() );
 	const code = {
-		key: null,
+		key: string,
 		ctrlKey: false,
 		metaKey: false,
 		shiftKey: false,
@@ -69,7 +71,7 @@ const toCode = ( text: string ) : KeyCode => {
 				if ( code.key === key.toUpperCase() ) {
 					// Ignore shift status for symbols, and just map to the
 					// value. This should work reliably on all keyboards.
-					code.shiftKey = null;
+					code.shiftKey = false;
 				}
 				break;
 		}

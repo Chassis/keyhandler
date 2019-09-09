@@ -23,7 +23,7 @@ export default class Provider extends React.Component<Props> {
 
 	keyHandler: KeyHandler;
 
-	constructor( props ) {
+	constructor( props: Readonly<Props> ) {
 		super( props );
 
 		this.keyHandler = new KeyHandler();
@@ -37,13 +37,13 @@ export default class Provider extends React.Component<Props> {
 		this.setState( {
 			showKeys: true,
 		} );
-	}
+	};
 
 	onMetaUp = () => {
 		this.setState( {
 			showKeys: false,
 		} );
-	}
+	};
 
 	render() {
 		const context = {

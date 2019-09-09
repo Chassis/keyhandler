@@ -24,11 +24,11 @@ export default class KeyHandler extends React.Component<Props> {
 	static propTypes = {
 		disableHint: PropTypes.bool,
 		enabled: PropTypes.bool,
-		shortcut: PropTypes.string.isRequired,
+		shortcut: PropTypes.string,
 		onTrigger: PropTypes.func,
 	};
 
-	handler: number;
+	handler: number | null;
 
 	constructor( props: Props ) {
 		super( props );
